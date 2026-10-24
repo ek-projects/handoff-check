@@ -1,0 +1,24 @@
+# Local operational status and learning profile (not public)
+STATUS.md
+devpost/learner-profile.md
+devpost/submission-draft.md
+# Third-party tool installation; not user-developed project source
+.agents/
+.claude/
+agent/
+skills-lock.json
+# Credential files
+.env
+.env.*
+!.env.example
+# Python local output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+dist/
+build/
+*.egg-info/
+
+# Local demo recordings (publish separately)
+.artifacts/
